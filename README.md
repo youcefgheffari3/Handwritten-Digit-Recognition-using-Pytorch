@@ -51,4 +51,21 @@ class CNN(nn.Module):
         return F.log_softmax(x, dim=1)
 ```
 
+## 🛠️ Requirements
+- Python 3.7+
+- PyTorch
+- torchvision
+- NumPy
 
+## 📊 Training & Evaluation
+
+The model is trained for 10 epochs and evaluated on the test set.
+
+Example output:
+
+yaml
+Copy
+Edit
+Train Epoch: 1 [0/60000 (0%)]   Loss: 2.2951
+...
+Test set: Average loss: 0.0381, Accuracy: 9612/10000 (96%)
